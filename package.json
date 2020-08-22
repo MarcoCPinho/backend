@@ -4,12 +4,13 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon" 
-  }, 
+    "dev": "nodemon"
+  },
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }

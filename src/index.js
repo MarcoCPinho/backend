@@ -1,8 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const { v4: uuidv4, validate: uuidValidate } = require('uuid'); //importando segundo a documentação
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 const projects = [];
